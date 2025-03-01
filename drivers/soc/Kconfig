@@ -37,7 +37,7 @@ source "drivers/soc/kendryte/Kconfig"
 #endif /*#ifdef OPLUS_TP_BASIC*/
 
 #ifdef OPLUS_FEATURE_MIDAS_GKI
-source "drivers/soc/oplus/midas/Kconfig"
+#source "drivers/soc/oplus/midas/Kconfig"
 #endif /* OPLUS_FEATURE_MIDAS_GKI */
 
 #ifdef OPLUS_FEATURE_OMRG
