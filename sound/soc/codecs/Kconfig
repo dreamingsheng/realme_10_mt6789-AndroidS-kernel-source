@@ -1928,7 +1928,7 @@ config SND_SOC_NAU8824
 	tristate "Nuvoton Technology Corporation NAU88L24 CODEC"
 	depends on I2C
 
-config SND_SOC_NAU8825
+config SND_SOC_NAU8825#
 	tristate
 	depends on I2C
 
@@ -1936,5 +1936,5 @@ config SND_SOC_TPA6130A2
 	tristate "Texas Instruments TPA6130A2 headphone amplifier"
 	depends on I2C
 
-source "sound/soc/codecs/audio/Kconfig"
+#source "sound/soc/codecs/audio/Kconfig"
 endmenu
