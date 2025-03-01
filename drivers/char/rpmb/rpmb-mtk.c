@@ -2318,7 +2318,7 @@ int rpmb_req_ioctl_read_data_emmc(struct mmc_card *card,
 
 #endif
 
-#if IS_ENABLED(CONFIG_TRUSTONIC_TEE_SUPPORT)
+#if 0
 static int rpmb_gp_listenDci(void *arg)
 {
 	enum mc_result mc_ret;
