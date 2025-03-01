@@ -163,7 +163,7 @@ config HMEM_REPORTING
 
 source "drivers/base/test/Kconfig"
 
-source "drivers/base/power/power_diag/Kconfig"
+#source "drivers/base/power/power_diag/Kconfig"
 
 config SYS_HYPERVISOR
 	bool
