@@ -41,11 +41,11 @@ source "drivers/soc/oplus/midas/Kconfig"
 #endif /* OPLUS_FEATURE_MIDAS_GKI */
 
 #ifdef OPLUS_FEATURE_OMRG
-source "drivers/soc/oplus/thermal/oplus_omrg/Kconfig"
+#source "drivers/soc/oplus/thermal/oplus_omrg/Kconfig"
 #endif /* OPLUS_FEATURE_OMRG */
 
 #ifdef OPLUS_FEATURE_GKI_CPUFREQ_BOUNCING
-source "drivers/soc/oplus/thermal/cpufreq_bouncing/Kconfig"
+#source "drivers/soc/oplus/thermal/cpufreq_bouncing/Kconfig"
 #endif /* OPLUS_FEATURE_GKI_CPUFREQ_BOUNCING */
 
 endmenu
